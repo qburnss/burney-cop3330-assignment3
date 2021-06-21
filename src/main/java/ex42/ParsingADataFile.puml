@@ -1,0 +1,15 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+
+class solution42{
+Read Files from ReadNameAndSalaryFile
+Display output
+}
+class ReadNameAndSalaryFile{
+open text file
+create function to read strings
+separate strings
+}
+ReadNameAndSalaryFile -->solution42
+@enduml

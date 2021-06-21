@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class solution41{
+    read filePath
+    use ReadNameList
+    sort Alphabetically
+    display names in output file
+}
+class ReadNameList{
+    a read fileFunction
+}
+ReadNameList -->solution41
+@enduml

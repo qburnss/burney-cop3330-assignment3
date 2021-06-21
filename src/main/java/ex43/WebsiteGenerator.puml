@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+
+class solution43{
++ main
+call all string functions
+}
+class jsandcssfolder{
+js folder
+css folder
+}
+class generatewebsite{
+create html/index file
+create website
+}
+generatewebsite --> solution43
+jsandcssfolder --> solution43
+@enduml

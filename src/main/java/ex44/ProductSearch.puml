@@ -1,0 +1,13 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class solution44{
++main
+call winsight and winspect functions
+}
+class jsonProducts{
+read function (winspect)
+search function (winsight)
+}
+
+@enduml

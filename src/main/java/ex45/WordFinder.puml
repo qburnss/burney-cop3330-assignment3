@@ -1,0 +1,10 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class solution45{
++main
+read file
+replace string
+write file
+}
+@enduml
